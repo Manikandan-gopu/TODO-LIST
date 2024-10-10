@@ -1,0 +1,81 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Style for the h1 title */
+h1 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style for the input */
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Style for the Add button */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the list container */
+#list_container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+}
+
+/* Style for each list item */
+#list_container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Delete button inside list items */
+#list_container li button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    color: #fff;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#list_container li button:hover {
+    background-color: #c0392b;
+}
